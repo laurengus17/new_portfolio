@@ -34,6 +34,9 @@
 .footer_text {
     display: none;
     margin-right: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .footer_link i {
