@@ -14,7 +14,7 @@ const NavBar = () => {
             </li>
             <li className='navbar_list'>
                 <Link to='/about' exact={true} activeClassName='active' className='navbar_link'> 
-                <i className='fas fa-door-open fa-2x' />
+                <i className='far fa-smile fa-2x' />
                 <span className='navbar_text'>About Me</span>
                 </Link>
             </li>
