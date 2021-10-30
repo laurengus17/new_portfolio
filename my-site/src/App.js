@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
-import LandingPage from './components/LandingPage/LandingPage';
+import LandingPage from './components/Landing/LandingPage';
 import ResumeLanding from './components/Resume/ResumeLanding';
 import ProjectsLanding from './components/Projects/ProjectsLanding';
 import ContactLanding from './components/Contact/ContactLanding';
