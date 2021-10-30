@@ -32,6 +32,8 @@ nav {
 .navbar_text {
     display: none;
     margin-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .navbar_link i {
