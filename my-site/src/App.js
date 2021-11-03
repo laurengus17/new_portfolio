@@ -5,6 +5,7 @@ import LandingPage from './components/Landing/LandingPage';
 import ResumeLanding from './components/Resume/ResumeLanding';
 import ProjectsLanding from './components/Projects/ProjectsLanding';
 import ContactLanding from './components/Contact/ContactLanding';
+import AboutMeLanding from './components/About/AboutMeLanding';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -16,6 +17,9 @@ function App() {
       <Switch>
         <Route path='/' exact={true}>
           <LandingPage/>
+        </Route>
+        <Route path='/about' exact={true}>
+          <AboutMeLanding />
         </Route>
         <Route path='/resume' exact={true}>
           <ResumeLanding />
