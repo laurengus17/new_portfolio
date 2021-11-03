@@ -1,3 +1,12 @@
 .about_intro_container {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.about_text_container {
+    width: 800px;
+    margin-left: 40%;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
