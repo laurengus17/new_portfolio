@@ -5,7 +5,7 @@ const AboutMeLanding = () => {
     return (
         <div className='about_page_container'>
             <div className='about_intro_container'>
-                <p>ABOUT ME</p>
+                <h2>ABOUT ME</h2>
             </div>
         </div>
     );
