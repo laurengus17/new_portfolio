@@ -4,7 +4,7 @@ import './AboutMe.css'
 const AboutMeLanding = () => {
     return (
         <div className='about_page_container'>
-            <div className=''>
+            <div className='about_intro_container'>
                 <p>ABOUT ME</p>
             </div>
         </div>
