@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeGrown from './HomeGrown';
+import Artifacts from './Artifacts'
 import './Projects.css'
 
 const ProjectsLanding = () => {
@@ -17,6 +18,7 @@ const ProjectsLanding = () => {
                         <div className='project_name_container'>
                             <p>const Artifacts = </p>
                         </div>
+                        <Artifacts />
                     </div>
                     <div className='specific_project'>
                         <h4>const KettleOverflow = </h4>
