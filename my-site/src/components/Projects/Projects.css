@@ -21,15 +21,10 @@
 
 .specific_project {
     display: flex;
-    margin-left: 20%;
-}
-
-.project_container {
-    display: flex;
 }
 
 .project_image {
     width: 30%;
     display: block;
-    margin-top: 20px;
+    margin: 4rem;
 }

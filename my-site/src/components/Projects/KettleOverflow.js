@@ -5,10 +5,10 @@ import './Projects.css'
 
 const KettleOverflow = () => {
     return (
-        <div container='project_container'>
-            {/* <img className='project_image' src={HG_browse} alt='HG browse'/>
-            <img className='project_image' src={HG_user} alt='HG_user' /> */}
-        </div>
+        <>
+            <img className='project_image' src={KO_search} alt='KO search' />
+            <img className='project_image' src={KO_question} alt='KO question'/>
+        </>
     );
 }
 
