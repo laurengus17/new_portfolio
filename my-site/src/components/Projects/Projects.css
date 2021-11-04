@@ -1,4 +1,4 @@
-.projects_container {
+.projects_landing_container {
     text-align: center;
 }
 
@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 700;
+}
+
+.project_name_container {
+    padding: 20px;
+    width: 50%;
 }
 
 .project_name {
@@ -16,8 +21,15 @@
 
 .specific_project {
     display: flex;
+    margin-left: 20%;
+}
+
+.project_container {
+    display: flex;
 }
 
 .project_image {
     width: 30%;
+    display: block;
+    margin-top: 20px;
 }
