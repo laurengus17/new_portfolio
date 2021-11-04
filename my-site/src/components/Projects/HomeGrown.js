@@ -5,6 +5,7 @@ const HomeGrown = () => {
     return (
         <div container='project_container'>
             <h2>PROJECT HERE</h2>
+            
         </div>
     );
 }
