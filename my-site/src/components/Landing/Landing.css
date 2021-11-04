@@ -1,4 +1,9 @@
 .landing_page_container {
+    margin: auto;
+}
+
+.intro_landing_container {
+    /* float: right; */
     display: flex;
 }
 
@@ -6,7 +11,24 @@
     text-align: right;
 }
 
+.image_container {
+    right: 0;
+}
+
+.landing_name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 6px;
+}
+
+.landing_intro_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
 .portrait_image {
-    height: 85%;
-    width: 45%;
+    height: auto;
+    width: 40%;
+    margin: 15px;
 }
