@@ -1,8 +1,12 @@
+.landing_page_container {
+    display: flex;
+}
+
 .selfie_container {
-    text-align: center;
+    text-align: right;
 }
 
 .portrait_image {
-    height: 15%;
-    width: 15%;
+    height: 85%;
+    width: 45%;
 }
