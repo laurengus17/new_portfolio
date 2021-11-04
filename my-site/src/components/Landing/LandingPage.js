@@ -9,11 +9,9 @@ const LandingPage = () => {
                 <div className='selfie_container'>
                     <p className='landing_name'>Hey, I'm Lauren.</p>
                     <p className='landing_name'>Nice to virtually meet you!</p>
-                    <p className='landing_intro_text'>I'm a Full-Stack Developer and an <br />endlessly curious learner/creator.</p>
+                    <p className='landing_intro_text'>I'm a Full-Stack Developer and an endlessly <br />curious learner/creator.</p>
                 </div>
-                <div className='image_container'>
-                    <img src={me} alt='Lauren' className='portrait_image' />
-                </div>
+                <img src={me} alt='Lauren' className='portrait_image' />
             </div>
         </div>
     );

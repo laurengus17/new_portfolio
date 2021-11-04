@@ -1,18 +1,15 @@
 .landing_page_container {
-    margin: auto;
+    float: right;
+    margin-top: 100px;
 }
 
 .intro_landing_container {
-    /* float: right; */
     display: flex;
+    width: auto;
 }
 
 .selfie_container {
     text-align: right;
-}
-
-.image_container {
-    right: 0;
 }
 
 .landing_name {
@@ -24,11 +21,12 @@
 
 .landing_intro_text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .portrait_image {
     height: auto;
-    width: 40%;
-    margin: 15px;
+    max-width: 25%;
+    margin-left: 15px;
+    margin-top: 20px;
 }
