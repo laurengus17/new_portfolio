@@ -1,3 +1,10 @@
-.resume_landing_container {
-    text-align: center;
+.resume_tech_container {
+    margin-left: 40%;
+    text-align: right;
+}
+
+.tech_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
 }
