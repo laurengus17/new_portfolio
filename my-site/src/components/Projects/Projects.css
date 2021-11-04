@@ -1,3 +1,23 @@
 .projects_container {
     text-align: center;
 }
+
+.projects_title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project_name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.specific_project {
+    display: flex;
+}
+
+.project_image {
+    width: 30%;
+}

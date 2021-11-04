@@ -6,9 +6,9 @@ const ProjectsLanding = () => {
     return (
         <div className='projects_container'>
             <div>
-                <h2>MyProjects.forEach()</h2>
-                <div>
-                    <h4>const HomeGrown = </h4>
+                <p className='projects_title'>MyProjects.forEach()</p>
+                <div className='specific_project'>
+                    <p className='project_name'>const HomeGrown = </p>
                     <HomeGrown />
                 </div>
                 <div>
