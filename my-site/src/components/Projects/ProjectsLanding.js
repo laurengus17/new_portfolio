@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeGrown from './HomeGrown';
 import Artifacts from './Artifacts'
+import KettleOverflow from './KettleOverflow';
 import './Projects.css'
 
 const ProjectsLanding = () => {
@@ -16,12 +17,15 @@ const ProjectsLanding = () => {
                     </div>
                     <div className='specific_project'>
                         <div className='project_name_container'>
-                            <p>const Artifacts = </p>
+                            <p className='project_name'>const Artifacts = </p>
                         </div>
                         <Artifacts />
                     </div>
                     <div className='specific_project'>
-                        <h4>const KettleOverflow = </h4>
+                        <div className='project_name_container'>
+                            <p className='project_name'>const KettleOverflow = </p>
+                        </div>
+                        <KettleOverflow />
                     </div>
                 </div>
         </div>
