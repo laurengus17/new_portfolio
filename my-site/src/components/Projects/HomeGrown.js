@@ -6,7 +6,7 @@ import './Projects.css'
 const HomeGrown = () => {
     return (
         <>
-            <img className='project_image' src={HG_browse} alt='HG browse'/>
+            <img className='project_image' src={HG_browse} alt='HG browse' />
             <img className='project_image' src={HG_user} alt='HG_user' />
         </>
     );
