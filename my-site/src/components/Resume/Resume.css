@@ -14,3 +14,21 @@
     margin-left: 10%;
     margin-top: 10%;
 }
+
+.resume_button {
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #815375;
+    color: #c993a9;
+}
+
+.resume_button:hover {
+    background-color: #c993a9;
+    color: #815375;
+}

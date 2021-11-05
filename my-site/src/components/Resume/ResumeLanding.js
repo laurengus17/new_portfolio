@@ -35,7 +35,7 @@ const ResumeLanding = () => {
             <br />
             <a href={resume} download='Gustafson_Lauren_Resume'>
                 <button className='resume_button'>
-                    Download My Resume
+                    Resume Download
                 </button>
             </a>
         </div>
