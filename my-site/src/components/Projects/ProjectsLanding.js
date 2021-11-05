@@ -27,12 +27,25 @@ const ProjectsLanding = () => {
                     <div className='specific_project'>
                         <div className='project_name_container'>
                             <p className='project_name'>const Artifacts = </p>
+                            <p className='project_description_a'>Etsy inspired e-commerce app for time-travelers.</p>
+                            <ul className='project_tech_a'>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                            </ul>
                         </div>
                         <Artifacts />
                     </div>
                     <div className='specific_project'>
                         <div className='project_name_container'>
                             <p className='project_name'>const KettleOverflow = </p>
+                            <p className='project_description_so'>Stack Overflow inspired app for all the tea heads out there.</p>
+                            <ul className='project_tech_so'>
+                                <li>JavaScript</li>
+                                <li>Pug</li>
+                                <li>Express.js</li>
+                            </ul>
                         </div>
                         <KettleOverflow />
                     </div>

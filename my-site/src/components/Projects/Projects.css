@@ -47,3 +47,41 @@
     list-style: none;
     /* maybe use an image as the list style  */
 }
+
+.project_tech_a li {
+    list-style: none;
+    /* maybe use an image as the list style  */
+}
+
+.project_tech_so li {
+    list-style: none;
+    /* maybe use an image as the list style  */
+}
+
+.project_description_a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 31.5%;
+}
+
+.project_tech_a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.project_description_so {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 24%;
+}
+
+.project_tech_so {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 17%;
+}
