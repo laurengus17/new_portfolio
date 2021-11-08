@@ -1,7 +1,13 @@
 .about_intro_container {
     text-align: center;
+}
+
+.about_title {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #CB6CE6;
 }
 
 .about_text_container {
@@ -9,8 +15,10 @@
     margin-left: 40%;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    color: #CBA2E8;
 }
 
 .highlight_about {
     font-weight: 600;
+    color: #CB6CE6;
 }

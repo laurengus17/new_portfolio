@@ -6,15 +6,26 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 40px;
+    color: #CB6CE6;
 }
 
 .portal_name {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding: 25px;
+    color: #CBA2E8;
 }
 
 .contact_list {
     padding: 20px;
     margin-top: 5px;
+}
+
+.contact_list i {
+    color: #CB6CE6;
+}
+
+.contact_list:hover,
+.contact_list i:hover {
+    transform: scale(1.3);
 }

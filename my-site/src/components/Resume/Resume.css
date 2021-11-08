@@ -1,12 +1,14 @@
 .resume_tech_container {
     margin-left: 40%;
     text-align: right;
+    background-color: #5E159F;
 }
 
 .tech_title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
+    color: #CB6CE6;
 }
 
 .resume_download_container {
@@ -24,11 +26,11 @@
     border-radius: 5px;
     padding: 10px;
     margin: 5px;
-    background-color: #815375;
-    color: #c993a9;
+    background-color: #5E159F;
+    color: #CB6CE6;
 }
 
 .resume_button:hover {
-    background-color: #c993a9;
-    color: #815375;
+    background-color: #CBA2E8;
+    color: #5E159F;
 }

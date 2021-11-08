@@ -17,11 +17,13 @@
     font-weight: 800;
     font-size: 40px;
     line-height: 6px;
+    color: #CB6CE6;
 }
 
 .landing_intro_text {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
+    color: #CBA2E8;
 }
 
 .portrait_image {

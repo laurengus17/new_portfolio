@@ -6,6 +6,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 700;
+    color: #CB6CE6;
 }
 
 .project_name_container {
@@ -17,6 +18,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: 600;
+    color: #CB6CE6;
 }
 
 .specific_project {
@@ -34,6 +36,7 @@
     font-size: 20px;
     text-align: left;
     margin-left: 27%;
+    color: #CBA2E8;
 }
 
 .project_tech {
@@ -41,6 +44,7 @@
     font-size: 18px;
     text-align: left;
     margin-left: 20%;
+    color: #CBA2E8;
 }
 
 .project_tech li {
@@ -63,6 +67,7 @@
     font-size: 20px;
     text-align: left;
     margin-left: 31.5%;
+    color: #CBA2E8;
 }
 
 .project_tech_a {
@@ -70,6 +75,7 @@
     font-size: 18px;
     text-align: left;
     margin-left: 25%;
+    color: #CBA2E8;
 }
 
 .project_description_so {
@@ -77,6 +83,7 @@
     font-size: 20px;
     text-align: left;
     margin-left: 24%;
+    color: #CBA2E8;
 }
 
 .project_tech_so {
@@ -84,4 +91,5 @@
     font-size: 18px;
     text-align: left;
     margin-left: 17%;
+    color: #CBA2E8;
 }
