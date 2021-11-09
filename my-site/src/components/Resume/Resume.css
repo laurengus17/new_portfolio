@@ -1,12 +1,16 @@
 .resume_tech_container {
     margin-left: 40%;
     text-align: right;
-    background-color: #5E159F;
     margin-right: 30px;
-    padding: 20px;
 }
 
-.tech_title {
+.tech_icons_container {
+    background-color: #5E159F;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.resume_title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -14,10 +18,17 @@
     padding: 10px;
 }
 
+.tech_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #CB6CE6;
+}
+
 .resume_download_container {
     display: block;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .resume_button {
@@ -28,7 +39,7 @@
     font-weight: 600;
     border-radius: 5px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     background-color: #5E159F;
     color: #CB6CE6;
 }
@@ -36,6 +47,7 @@
 .resume_button:hover {
     background-color: #CBA2E8;
     color: #5E159F;
+    box-shadow: 5px 10px #CB6CE6;
 }
 
 .tech_icon:hover {

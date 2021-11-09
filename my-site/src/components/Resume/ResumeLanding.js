@@ -27,21 +27,22 @@ const ResumeLanding = () => {
     return (
         <>
         <div className='resume_download_container'>
+            <p className='resume_title'>Resume</p>
             <a href={resume} target='_blank'>
                 <button className='resume_button'>
-                    Resume Link
+                    PDF Link 🔗
                 </button>
             </a>
             <br />
             <a href={resume} download='Gustafson_Lauren_Resume'>
                 <button className='resume_button'>
-                    Resume Download
+                    PDF Download 📥
                 </button>
             </a>
         </div>
         <div className='resume_tech_container'>
             <p className='tech_title'>Technologies</p>
-            <div>
+            <div className='tech_icons_container'>
                 <img src={AWS} alt="aws" width="100" height="100" className='tech_icon'></img>
                 <img src={bash} alt="bash" width="100" height="100" className='tech_icon'></img>
                 <img src={CSS} alt="css3" width="100" height="100" className='tech_icon'></img>
