@@ -1,5 +1,6 @@
 import React from 'react';
 import me from '../Images/me.jpg';
+import switchMe from '../Images/switchPhoto.png'
 import './Landing.css'
 
 const LandingPage = () => {
@@ -11,7 +12,10 @@ const LandingPage = () => {
                     <p className='landing_name'>Nice to virtually meet you!</p>
                     <p className='landing_intro_text'>I'm a Full-Stack Developer and an endlessly <br />curious learner/creator.</p>
                 </div>
-                <img src={me} alt='Lauren' className='portrait_image' />
+                <div className='images_container'>
+                <img src={me} alt='Lauren' className='me mainPhoto' />
+                <img src={switchMe} alt='Lauren' className='me hoverPhoto' />
+                </div>
             </div>
         </div>
     );

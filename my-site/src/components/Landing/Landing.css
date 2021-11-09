@@ -26,9 +26,27 @@
     color: #CBA2E8;
 }
 
-.portrait_image {
-    height: auto;
-    max-width: 25%;
-    margin-left: 15px;
-    margin-top: 20px;
+.images_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: auto:
+}
+
+.me {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hoverPhoto {
+    width: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.images_container:hover .hoverPhoto {
+    width: 100%
 }
