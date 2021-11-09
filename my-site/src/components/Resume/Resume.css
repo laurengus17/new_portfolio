@@ -2,6 +2,8 @@
     margin-left: 40%;
     text-align: right;
     background-color: #5E159F;
+    margin-right: 30px;
+    padding: 20px;
 }
 
 .tech_title {
@@ -9,6 +11,7 @@
     font-weight: 700;
     font-size: 40px;
     color: #CB6CE6;
+    padding: 10px;
 }
 
 .resume_download_container {
@@ -33,4 +36,8 @@
 .resume_button:hover {
     background-color: #CBA2E8;
     color: #5E159F;
+}
+
+.tech_icon:hover {
+    transform: scale(1.3);
 }

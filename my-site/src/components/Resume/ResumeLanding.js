@@ -42,26 +42,26 @@ const ResumeLanding = () => {
         <div className='resume_tech_container'>
             <p className='tech_title'>Technologies</p>
             <div>
-                <img src={AWS} alt="aws" width="100" height="100"></img>
-                <img src={bash} alt="bash" width="100" height="100"></img>
-                <img src={CSS} alt="css3" width="100" height="100"></img>
-                <img src={docker} alt="docker" width="100" height="100"></img>
-                <img src={express} alt="express" width="100" height="100"></img>
-                <img src={Flask} alt="flask" width="100" height="100"></img>
-                <img src={git} alt="git" width="100" height="100"></img>
-                <img src={heroku} alt="heroku" width="100" height="100"></img>
-                <img src={html} alt="html5" width="100" height="100"></img>
-                <img src={JS} alt="javascript" width="100" height="100"></img>
-                <img src={mocha} alt="mocha" width="100" height="100"></img>
-                <img src={MYSQL} alt="mysql" width="100" height="100"></img>
-                <img src={node} alt="nodejs" width="100" height="100"></img>
-                <img src={pug} alt="pug" width="100" height="100"></img>
-                <img src={PS} alt="photoshop" width="100" height="100"></img>
-                <img src={postgres} alt="postgresql" width="100" height="100"></img>
-                <img src={postman} alt="postman" width="100" height="100"></img>
-                <img src={python} alt="python" width="100" height="100"></img>
-                <img src={react} alt="react" width="100" height="100"></img>
-                <img src={redux} alt="redux" width="100" height="100"></img>
+                <img src={AWS} alt="aws" width="100" height="100" className='tech_icon'></img>
+                <img src={bash} alt="bash" width="100" height="100" className='tech_icon'></img>
+                <img src={CSS} alt="css3" width="100" height="100" className='tech_icon'></img>
+                <img src={docker} alt="docker" width="100" height="100" className='tech_icon'></img>
+                <img src={express} alt="express" width="100" height="100" className='tech_icon'></img>
+                <img src={Flask} alt="flask" width="100" height="100" className='tech_icon'></img>
+                <img src={git} alt="git" width="100" height="100" className='tech_icon'></img>
+                <img src={heroku} alt="heroku" width="100" height="100" className='tech_icon'></img>
+                <img src={html} alt="html5" width="100" height="100" className='tech_icon'></img>
+                <img src={JS} alt="javascript" width="100" height="100" className='tech_icon'></img>
+                <img src={mocha} alt="mocha" width="100" height="100" className='tech_icon'></img>
+                <img src={MYSQL} alt="mysql" width="100" height="100" className='tech_icon'></img>
+                <img src={node} alt="nodejs" width="100" height="100" className='tech_icon'></img>
+                <img src={pug} alt="pug" width="100" height="100" className='tech_icon'></img>
+                <img src={PS} alt="photoshop" width="100" height="100" className='tech_icon'></img>
+                <img src={postgres} alt="postgresql" width="100" height="100" className='tech_icon'></img>
+                <img src={postman} alt="postman" width="100" height="100" className='tech_icon'></img>
+                <img src={python} alt="python" width="100" height="100" className='tech_icon'></img>
+                <img src={react} alt="react" width="100" height="100" className='tech_icon'></img>
+                <img src={redux} alt="redux" width="100" height="100" className='tech_icon'></img>
             </div>
         </div>
         </>
