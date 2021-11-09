@@ -1,5 +1,5 @@
 .landing_page_container {
-    float: right;
+    margin-left: 35%;
     margin-top: 100px;
 }
 
@@ -10,6 +10,7 @@
 
 .selfie_container {
     text-align: right;
+    padding: 20px;
 }
 
 .landing_name {
@@ -27,26 +28,34 @@
 }
 
 .images_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: auto:
-}
-
-.me {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
 }
 
 .hoverPhoto {
-    width: 0;
-    transition: 1s;
-    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 400px;
 }
 
-.images_container:hover .hoverPhoto {
-    width: 100%
+.mainPhoto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 400px;
 }
+
+
+.images_container:hover .hoverPhoto {
+    display: inline;
+}
+
+.images_container:hover .mainPhoto {
+    display: none;
+} 
